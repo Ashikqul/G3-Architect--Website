@@ -40,7 +40,10 @@
     border-radius: 8px;
     border: none;
 }
-
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 /* header styles */
 
@@ -86,4 +89,35 @@ max-width: 850px;
 .banner-title{
     font-weight: 700px;
     font-size: 4rem;
+}
+.banner-image{
+    width: 100%;
+}
+
+/* team and feature related styles */
+
+.teams{
+    align-items: center;
+    gag
+}
+
+.team-img-container{
+    display: grid ;
+    grid-template-columns:repeat (2, 1ft);
+}
+
+
+
+
+
+
+
+/* responsive media query */
+@media screen  and (max-width: 576px){
+
+    .navbar, .nav-linke{
+        flex-direction: column;
+
+    }
+    
 }
