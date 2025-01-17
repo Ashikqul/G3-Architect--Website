@@ -219,7 +219,16 @@ margin-bottom: 0px;
 .sponsor-companies img{
     filter: grayscale(100%);
 }
-
+.footer {
+    background-color: rgba(255, 244, 231, 1);
+    border-radius: 10px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    margin: 50px auto;
+   
+    
+}
 
 /* responsive media query */
 @media screen  and (max-width: 576px){
